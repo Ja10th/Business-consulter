@@ -1,0 +1,21 @@
+.btn-project {
+  border: 1px solid var(--black-s);
+  border-radius: 0;
+  padding: 10px 20px;
+}
+.ppp {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+.large {
+  height: 200px;
+}
+.small {
+  height: 200px;
+}
+.project__details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}

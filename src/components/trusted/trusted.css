@@ -1,0 +1,11 @@
+.trusted {
+  text-align: center;
+  padding: 4rem 0;
+}
+.trusted p {
+  padding: 0 18rem;
+  color: var(--black-s);
+}
+.trusted span {
+  color: var(--primary);
+}

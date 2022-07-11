@@ -1,0 +1,131 @@
+.about {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.about h3,
+p {
+  text-align: center;
+}
+.about p {
+  padding: 0 1.5rem;
+  color: var(--black-s);
+}
+.art-one {
+  background-image: url(https://images.pexels.com/photos/1367269/pexels-photo-1367269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+.art-one p {
+  font-size: 15;
+  color: transparent;
+  padding: 3.5rem 0;
+}
+.art-one:hover {
+  background-position: center;
+  background-size: contain;
+  background-image: linear-gradient(
+      to right,
+      rgb(10, 10, 10, 0.9),
+      rgb(10, 10, 10, 0.9)
+    ),
+    url(https://images.pexels.com/photos/1367269/pexels-photo-1367269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  font-size: 19 !important;
+}
+.art-one:hover > p:hover {
+  color: #fff !important;
+  font-size: 15px;
+  font-size: 13;
+  content: attr(data-hover);
+  line-height: 26px;
+  font-weight: 400;
+  transition: 2s;
+}
+.about__details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.art-two {
+  background-image: url(https://images.pexels.com/photos/901424/pexels-photo-901424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+}
+
+.art-two:hover {
+  background-position: center;
+  background-size: contain;
+  background-image: linear-gradient(
+      to right,
+      rgb(10, 10, 10, 0.9),
+      rgb(10, 10, 10, 0.9)
+    ),
+    url(https://images.pexels.com/photos/901424/pexels-photo-901424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.art-two p {
+  font-size: 15;
+  color: transparent;
+  padding: 3.5rem 0;
+}
+.art-two:hover > p:hover {
+  color: #fff !important;
+  font-size: 15px;
+  font-size: 13;
+  content: attr(data-hover);
+  line-height: 26px;
+  font-weight: 400;
+  transition: 2s;
+}
+.art-three {
+  background-image: url(https://images.pexels.com/photos/936135/pexels-photo-936135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+}
+.art-three:hover {
+  background-position: center;
+  background-size: contain;
+  background-image: linear-gradient(
+      to right,
+      rgb(10, 10, 10, 0.9),
+      rgb(10, 10, 10, 0.9)
+    ),
+    url(https://images.pexels.com/photos/936135/pexels-photo-936135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  content: "Jesus is Lord";
+  display: block;
+}
+.art-three p {
+  font-size: 15;
+  color: transparent;
+  padding: 3.5rem 0;
+}
+.art-three:hover > p:hover {
+  color: #fff !important;
+  font-size: 15px;
+  font-size: 13;
+  content: attr(data-hover);
+  line-height: 26px;
+  font-weight: 400;
+  transition: 2s;
+}
+.about__details h5 {
+  text-align: center;
+  padding: 1rem 0;
+}
+.triangle {
+  width: 40px;
+  height: 40px;
+  background: var(--primary);
+  float: right;
+  text-align: center;
+  padding: 0;
+}
+.about-icons {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0.5rem 0;
+}

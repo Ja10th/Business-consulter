@@ -1,0 +1,10 @@
+.exo p {
+  text-align: center;
+  padding: 6rem 10.4rem;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.exo {
+  margin: 4rem 0;
+  background: var(--primary);
+}

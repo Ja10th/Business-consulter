@@ -1,0 +1,39 @@
+.whyus__container {
+  display: flex;
+  margin-top: 2rem;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://wallpaperaccess.com/full/1455621.jpg);
+  color: #fff;
+}
+.whyus {
+  margin-top: 5rem;
+}
+.whyus__title {
+  padding: 8rem 0 0 2.5rem;
+  text-align: center !important;
+  max-width: 27%;
+}
+
+.whyus__title p {
+  color: #aec7f3;
+}
+.swipper {
+  margin: 14rem 0 3rem 0;
+}
+.swipper-text {
+  text-align: center !important;
+  border: 1px solid rgb(65, 70, 90);
+}
+.swipper-icon {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.icon-back {
+  background: #15346f;
+  margin: 8px;
+  padding: 10px;
+}
+.icon-back p {
+  color: #aec7f3;
+}

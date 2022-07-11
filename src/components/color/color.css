@@ -1,0 +1,46 @@
+.boxes {
+  display: none;
+  padding-bottom: 10px;
+  background: #fff;
+  height: 70px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.color {
+  position: fixed;
+  top: 0;
+  margin-top: 23rem;
+  z-index: 1;
+}
+.color-set {
+  width: 40px;
+  background: brown;
+  height: 30px;
+  justify-content: flex-end;
+  text-align: right;
+}
+.color-set-icon {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.boxes > div {
+  height: 40px;
+  width: 40px;
+}
+.orange {
+  background: orange;
+}
+.navy {
+  background: navy;
+}
+.light-blue {
+  background: lightblue;
+}
+.brown {
+  background: brown;
+}
+.red {
+  background: red;
+}
+.purple {
+  background: purple;
+}

@@ -1,0 +1,40 @@
+.news-title {
+  display: flex;
+  justify-content: space-between;
+}
+.news__details {
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.news__detail h5 {
+  padding: 0 0rem 0 0;
+}
+.news__detail p {
+  text-align: left;
+}
+.news-logo {
+  margin-right: 0.5rem;
+}
+.new {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe7Yi81dqUXUjEuVYUx72iOAJfiMHpM8KRYr0PU397B6d1Becinh1sI3uCNxJy3_LKGLk&usqp=CAU);
+}
+.news {
+  padding: 2rem 0;
+  color: #fff !important;
+}
+.news__detail {
+  background: #fff;
+  color: #000;
+  padding: 20px;
+}
+.news__details small {
+  color: var(--primary);
+}
+.btn-news {
+  border: 1px solid var(--white);
+  border-radius: 0;
+  padding: 10px 20px;
+  color: #fff;
+}

@@ -1,0 +1,25 @@
+.company h2 {
+  text-align: center;
+  padding: 3rem;
+}
+
+.company__details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.company__details p {
+  text-align: left;
+  color: var(--black-s);
+}
+.company__details h6 {
+  color: var(--primary);
+}
+.company__details img {
+  height: 240px;
+}
+.company-btn {
+  border: 1px solid var(--secondary);
+  padding: 10px 20px;
+  border-radius: 0;
+}

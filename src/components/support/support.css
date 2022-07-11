@@ -1,0 +1,24 @@
+.support__details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  text-align: center;
+}
+.support__details img {
+  height: 100px;
+  opacity: 0.9;
+}
+.support__details p {
+  text-align: left;
+  color: var(--black-s);
+}
+.support {
+  text-align: center;
+}
+.support__details article {
+  box-shadow: 1px 1px 10px rgb(234, 232, 232);
+  padding: 10px 20px;
+}
+.support .btn {
+  margin: 2rem 0;
+}

@@ -1,0 +1,81 @@
+.first-nav {
+  display: grid;
+  padding-top: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+.first-nav > div {
+  display: flex;
+}
+.first-nav > div > div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+}
+.first-nav h2 {
+  font-weight: 600;
+}
+.nav-row1 {
+  font-size: 13px;
+}
+.first-nav h6 {
+  font-weight: 500;
+}
+.first-nav p {
+  color: var(--black-s);
+}
+.logo {
+  margin-top: 1rem;
+  font-size: 3rem;
+  margin-right: 0.3rem;
+  background: brown;
+  color: var(--white);
+  border-bottom-left-radius: 21%;
+  border-bottom-right-radius: 37%;
+  border-top-right-radius: 43%;
+  border-top-left-radius: 32%;
+}
+.logo-icons {
+  margin-top: 1rem;
+  font-size: 1.9rem;
+  margin-right: 1rem;
+  color: var(--primary);
+}
+.nav-link {
+  color: var(--black) !important;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.nav-item {
+  padding-right: 1rem;
+}
+.active {
+  color: var(--primary) !important;
+  font-weight: 600;
+}
+.active::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  max-width: 50%;
+  margin-left: 25%;
+  background: var(--primary);
+}
+.nav-link:hover {
+  color: var(--primary) !important;
+}
+.consult-btn {
+  background: var(--primary) !important;
+  color: var(--white);
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0 !important;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+input {
+  font-family: FontAwesome;
+  text-align: right;
+  width: 200px !important;
+}

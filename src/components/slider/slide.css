@@ -1,0 +1,36 @@
+.count__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  justify-content: center;
+  background: white;
+  padding: 0 16rem;
+  margin-left: 10rem;
+  margin-top: 1rem;
+  margin-bottom: -10px;
+  position: absolute;
+}
+.countb {
+  margin-top: 1.5rem;
+}
+.count {
+  border-right: 1px solid rgba(128, 128, 128, 0.223);
+}
+.count-last {
+  border-right: none;
+}
+.count > div {
+  display: flex;
+  padding: 0 4rem;
+}
+.count__ppp {
+  padding: 0rem 2rem;
+  color: var(--black);
+  font-size: 1.5rem;
+}
+.count p {
+  color: var(--primary);
+}
+.slide-logo {
+  font-size: 2rem;
+}

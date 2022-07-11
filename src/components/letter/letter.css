@@ -1,0 +1,25 @@
+.letter {
+  padding: 5rem 0;
+  background: url(https://static.vecteezy.com/system/resources/thumbnails/003/685/386/small/grey-geometric-striped-seamless-pattern-light-grey-and-white-texture-vector.jpg);
+  background-size: cover;
+}
+.letter__details {
+  display: flex;
+  justify-content: space-around;
+}
+.letter p {
+  text-align: left;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+.form input {
+  margin-left: -2rem;
+  margin-right: 1rem;
+  width: 3rem;
+}
+.placehold {
+  text-transform: lowercase !important;
+}

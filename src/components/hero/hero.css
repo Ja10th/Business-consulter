@@ -1,0 +1,86 @@
+.Hero {
+  position: static;
+}
+.carousel-item1 {
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(10, 10, 10, 0.4),
+      rgba(10, 10, 10, 0.4)
+    ),
+    url(https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}
+.carousel-item2 {
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(10, 10, 10, 0.4),
+      rgba(10, 10, 10, 0.4)
+    ),
+    url(https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.carousel-item3 {
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(10, 10, 10, 0.3),
+      rgba(10, 10, 10, 0.3)
+    ),
+    url(https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}
+.carousel-item::after {
+  display: none;
+}
+.carousel-item::before {
+  display: none;
+}
+.carousel-captions h1 {
+  padding: 13rem 33.3rem 0 0;
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 700;
+  transition: 3s;
+}
+.carousel-captions p {
+  text-align: left;
+  max-width: 40%;
+  color: var(--secondary);
+}
+
+.carousel-captionss h1 {
+  padding: 13rem 23rem 0 0;
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: left;
+  align-items: right;
+  float: right;
+  justify-content: flex-end;
+  transition: 3s;
+}
+.carousel-captionss p {
+  text-align: left;
+  max-width: 40%;
+  color: var(--secondary);
+}
+.carrousel-captionss .btn-primary {
+  margin-left: 27rem !important;
+}
+.carousel-captionsss h1 {
+  padding: 13rem 33.3rem 0 0;
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 700;
+  transition: 3s;
+}
+.carousel-captionsss p {
+  text-align: left;
+  max-width: 40%;
+  color: var(--secondary);
+}
