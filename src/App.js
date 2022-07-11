@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from "./components/navbar/nav";
+import Hero from "./components/hero/hero";
+import About from "./components/about/about";
+import Color from "./components/color/color";
+import Slide from "./components/slider/slide";
+import Whyus from "./components/whyus/whyus";
+import Company from "./components/company/company";
+import Exo from "./components/experience/exo";
+import Project from "./components/Project/project";
+import Customer from "./components/customers/customer";
+import News from "./components/news/news";
+import Trusted from "./components/trusted/trusted";
+import Support from "./components/support/support";
+import Letter from "./components/letter/letter";
+import Footer from "./components/footer/footer";
+import Trust from "./components/trust/trust";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Trust />
+      <Nav />
+      <Hero />
+      <About />
+      <Color />
+      <Slide />
+      <Whyus />
+      <Company />
+      <Exo />
+      <Project />
+      <Customer />
+      <News />
+      <Trusted />
+      <Support />
+      <Letter />
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
